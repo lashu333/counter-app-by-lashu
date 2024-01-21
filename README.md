@@ -1,2 +1,2 @@
-# counter-app-repo
+# counter-app-react
  war of nerves
