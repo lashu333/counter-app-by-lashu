@@ -22,12 +22,12 @@
 }
 
 .counter-container:hover {
-  animation: movingirl 1s ease infinite;
+  animation: movingirl 1s ease infinite alternate-reverse;
 }
 .counter-display {
   background-color: rgb(2, 21, 56);
   font-size: 3rem;
-  animation: up-lol 4s infinite alternate;
+  animation: up-lol 4s infinite alternate-reverse;
   max-width: 2rem;
   max-height: 0rem;
   border-radius: 10rem;
@@ -85,6 +85,7 @@
   user-select: none;
   width: 30rem;
 }
+
 @keyframes up-lol {
   0% {
     transform: translateX(0px) rotate(0deg);
@@ -142,23 +143,33 @@
     transform: scale(1);
     transform: translateX(0px);
     transform: translateY(0px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 0px 0px inset,
+      rgba(0, 0, 0, 0) 0px 0px 0px -0px inset;
   }
   25% {
     transform: scale(0.965);
     transform: translateX(5px);
     transform: translateY(-2px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -6px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   }
   50% {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 15px 35px -10px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     transform: scale(0.93);
     transform: translateX(-7px);
     transform: translateY(4px);
   }
   75% {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 25px 49px -11px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     transform: scale(0.91);
     transform: translateX(6px);
     transform: translateY(-6px);
   }
   100% {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     transform: scale(0.9);
     transform: translateX(-4px);
     transform: translateY(0px);
