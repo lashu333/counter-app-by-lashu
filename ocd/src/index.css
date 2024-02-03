@@ -6,7 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #333333;
+  color: #333;
 }
 
 .counter-container {
@@ -20,7 +20,7 @@ body {
   justify-content: center;
   background-color: rgba(100, 148, 237, 0.9);
   text-align: center;
-  width: 200rem;
+  width: 20rem;
   height: 20rem;
   padding: 2rem;
   border: 5px solid #000;
